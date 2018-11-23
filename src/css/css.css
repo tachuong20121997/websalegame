@@ -1,0 +1,200 @@
+*{}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+h2.wow.shake.animated,h2.wow.wobble.animated,.tieudegamemoi  {
+    color: #fff;
+}
+
+span.navbar-toggler-icon {
+    color: #f000 !important;
+    background-color: #fff;
+}
+
+.anhsanphamgioithieu a.maychoi{ 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.anhsanphamgioithieu {
+    position: relative;
+}
+
+.anhsanphamgioithieu img{
+    height: 200px;
+}
+
+.anhchur img.img-fluid {
+    width: 50px;
+    height: 50px;
+}
+
+.noidunggioithieu{
+    height: 150px;
+    overflow-y: hidden;
+}
+
+.container.spgiamgia .row{
+    border: thin solid silver;
+}
+
+.container.spgiamgia .col-md-4 {
+    background-color: #e4ddc3;
+}
+
+.container.spgiamgia .card {
+    border: none;
+    background-color: #e3ddc3;
+    
+}
+
+.ngan{
+	width: 50%;
+	background: black;
+    border-top: 4px solid red;
+    margin: 0;
+}
+
+.spgiamgia .card-title{
+    color: red;
+    font-weight: bold;
+}
+
+.spgiamgia{
+    margin-top: 30px;
+}
+
+
+.content {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.content ul li{
+    width: 30%;
+    list-style-type: none;
+    margin: 5px;
+}
+
+
+footer.footer {
+    margin-top: 50px;
+    background-color: #2c3e50;
+    color:  #fff;
+}
+
+.footer .col-sm-12.col-md-4 {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer li {
+    list-style-type:  none;
+    display:  inline;
+    padding: 5px;
+}
+
+.footer a.fa {
+    border: 2px solid #fff;
+    width: 45px;
+    height: 45px;
+    border-radius:  50%;
+    display: inline-block;
+    padding: 13px;
+    color:  #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.footer ul {
+   display: inline;
+   padding-left: 0;
+}
+
+.footer a.fa:hover{
+	background-color: #fff;
+	color: #18bc9c;
+}
+
+.footer2 {
+    padding:  25px;
+    background-color: #233140;
+}
+
+
+.navbar-brand{
+    color: #fff !important;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    background-color: #fff;
+    color: black;
+}
+
+.gioithieu .card, .spgiamgia {
+    border: thin solid;
+    box-shadow: 5px 5px gray;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #000 !important;
+}
+
+.cauhoi, .hrcauhoi{
+    color: #fff;
+}
+.rowcauhoi{
+    border-bottom: thin solid #fff;
+}
+
+#backtop {
+    position: fixed;
+    left:auto;right: 20px;top:auto;bottom: 20px;
+    outline: none;
+    overflow:hidden;
+    color:#fff;
+    text-align:center;
+    background-color:rgba(49,79,96,0.84);
+    height:40px;
+    width:40px;
+    line-height:40px;
+    font-size:14px;
+    border-radius:2px;
+    cursor:pointer;
+    transition:all 0.3s linear;
+    z-index:999999;
+
+    opacity:1;
+    display:none;
+}
+#backtop:hover {
+background-color:#27CFC3;
+}
+#backtop.mcOut {
+opacity:0;
+}
+
+
+.gioithieu .card {
+    height: 480px;
+}
+
+.gioithieu, .spgiamgia, .content img {
+    transition: 0.4s all;
+    opacity: 0.8;
+}
+
+.gioithieu:hover, .spgiamgia:hover,.content img:hover {
+    transform: scale(1.1) !important;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+
